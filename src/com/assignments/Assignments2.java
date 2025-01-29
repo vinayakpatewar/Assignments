@@ -4,6 +4,8 @@ public class Assignments2 {
 
 	public static void main(String[] args) {
 		
+		
+		
 		String [][][] semester= {
 				{
 					//semester 1 and 6 subject along with marks
