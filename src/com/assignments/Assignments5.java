@@ -3,7 +3,6 @@ package com.assignments;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -65,7 +64,6 @@ public class Assignments5 {
 		// 5)
 		// Creating ArrayList of top 5 highest grossing movies 
 		// If any movie will be added in list then we can use linked list for better memory allocation.
-		
 		List<String> topMovies = new ArrayList<String>();
 		topMovies.add("Pushpa");
 		topMovies.add("Kalki");
