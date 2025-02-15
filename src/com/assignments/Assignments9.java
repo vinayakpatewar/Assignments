@@ -12,7 +12,7 @@ public class Assignments9 {
 		int secondMax = 0;
 		int thirdMax = 0;
 
-		// To interate above array for each loop here using
+		// To iterate above array for each loop here using
 		for (int num : numbers) {
 
 			// checking each elements with above initialize with variables
