@@ -14,7 +14,7 @@ public class Assignments11 {
 			
 		}
 		
-		System.out.print("powe of "+num+" is "+result);
+		System.out.print("power of "+num+" is "+result);
 
 	}
 
