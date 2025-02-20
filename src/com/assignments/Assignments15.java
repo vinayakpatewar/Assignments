@@ -1,5 +1,6 @@
 package com.assignments;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -15,11 +16,14 @@ public class Assignments15 {
 		
 		int count=0;
 		
-		Map<String, Integer> totalWord=new LinkedHashMap<String, Integer>();
+		HashMap<String, Integer> totalWord=new HashMap<String, Integer>();
 		
-		for(int i=0;i<result.length;i++)
-		{
-			totalWord.put(result[i], i);
+		for(String word:result) {
+			if(totalWord.containsKey(word)) {
+				totalWord.put(word, totalWord.get(word)+1);
+			}else {
+				totalWord.put(word, 1);
+			}
 			
 		}
 		
